@@ -47,7 +47,114 @@
 
     		<!-- ===== vCard Content ===== -->
     			<div class="col-md-8">
-	    			{{content}}
+	    			                    <div class="tab-content">
+                    
+                      <!-- ===== First Tab ===== -->
+                      <div class="tab-pane active" id="about">
+                        <h3>Alex McNeill</h3>
+                        <h5>Web Developer</h5>
+                        <hr>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
+                        <p>Has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it.</p>
+                        <p class="pull-right red"><i class="icon-heart"></i></p>
+                      </div><!-- tab about -->
+                      
+                      <!-- ===== Second Tab ===== -->
+                      <div class="tab-pane" id="profile">
+                        <h4><i class="icon-briefcase"></i> Job Experience</h4>
+                        <p class="sm">
+                            <grey>QUT.</grey> | February 2013 - Actual.<br/>
+                            <grey>Other Corp.</grey> | January 2011 - May 2013.<br/>
+                        </p>
+                      
+                          <h4><i class="icon-file-text-alt"></i> Education</h4>
+                        <p class="sm">
+                            <grey>Information Technology</grey> | Queensland University of Technology.<br/>
+                            <grey>Corp. Systems Management</grey> | Queensland University of Technology.<br/>
+                        </p>
+                        
+                          <h4><i class="icon-trophy"></i> Awards</h4>
+                        <p class="sm">
+                            <grey>Awesome Cool Guy</grey> | 2013.<br/>
+                        </p>
+                      </div><!-- Tab Profile -->
+                      
+                      <!-- ===== Third Tab ===== -->
+                      <div class="tab-pane" id="portfolio">
+                          <div class="row">
+                              <div class="col-xs-6 centered">
+                                <img class="img-responsive" src="assets/img/p01.png" alt="">
+                                <a href="#"><h6><i class="icon-link"></i> Project Name</h6></a>
+                              </div><!-- col-xs-6 -->
+                              <div class="col-xs-6 centered">
+                                <img class="img-responsive" src="assets/img/p02.png" alt="">
+                                <a href="#"><h6><i class="icon-link"></i> Project Name</h6></a>
+                              </div><!-- col-xs-6 -->
+                          </div><!-- row -->
+                          
+                          <div class="row">
+                            <br>    
+                              <div class="col-xs-6 centered">
+                                <img class="img-responsive" src="assets/img/p03.png" alt="">
+                                <a href="#"><h6><i class="icon-link"></i> Project Name</h6></a>
+                              </div><!-- col-xs-6 -->
+                              <div class="col-xs-6 centered">
+                                <img class="img-responsive" src="assets/img/p04.png" alt="">
+                                <a href="#"><h6><i class="icon-link"></i> Project Name</h6></a>
+                              </div><!-- col-xs-6 -->
+                          </div><!-- row -->
+                      </div><!-- /Tab Portfolio -->
+
+                      <div class="tab-pane" id="blog">
+                        <ul>
+                            {% for post in site.posts %}
+                                <li>
+                                    <a href="{{ post.url }}">{{post.title}}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                      </div>
+                      
+                      <!-- ===== Fourth Tab ===== -->
+                      <div class="tab-pane" id="contact">
+                          <h4>Contact Information</h4>
+                          <hr>
+                          <div class="row">
+                              <div class="col-xs-6">
+                                  <p class="sm">
+                                    <i class="icon-globe"></i> - klxbb.io <br/>
+                                    <i class="icon-envelope"></i> - a@klxbb.io  
+                                  </p>
+                              </div><!-- col-xs-6 -->
+                              
+                              <div class="col-xs-6">
+                                  <p class="sm">
+                                    <i class="icon-phone"></i> -  <br/>
+                                    <i class="icon-apple"></i> -   
+                                  </p>
+                              </div><!-- col-xs-6 -->
+                          </div><!-- row -->
+                          
+                          <h4>Social Links</h4>
+                          <hr>
+                          <div class="row">
+                              <div class="col-xs-6">
+                                  <p class="sm">
+                                    <i class="icon-facebook"></i> - klxbb <br/>
+                                    <i class="icon-tumblr"></i> - klxbb  
+                                  </p>
+                              </div><!-- col-xs-6 -->
+                              
+                              <div class="col-xs-6">
+                                  <p class="sm">
+                                    <i class="icon-dribbble"></i> - klxbb <br/>
+                                    <i class="icon-twitter"></i> - @klxbb  
+                                  </p>
+                              </div><!-- col-xs-6 -->
+                          </div><!-- row -->
+                      </div><!-- Tab Contact -->
+                      
+                    </div><!-- Tab Content -->
     			</div><!-- col-md-8 -->
     		</div><!-- row w -->
     	</div><!-- col-lg-6 -->
