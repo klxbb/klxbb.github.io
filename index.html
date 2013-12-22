@@ -60,6 +60,16 @@ title: Welcome
 							  </div><!-- col-xs-6 -->
 						  </div><!-- row -->
 					  </div><!-- /Tab Portfolio -->
+
+					  <div class="tab-pane" id="blog">
+					  	<ul>
+					  		{% for post in site.posts %}
+					  			<li>
+					  				<a href="{{ post.url }}">{{post.title}}</a>
+					  			</li>
+					  		{% endfor %}
+					  	</ul>
+					  </div>
 					  
 	    			  <!-- ===== Fourth Tab ===== -->
 					  <div class="tab-pane" id="contact">
