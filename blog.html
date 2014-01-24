@@ -1,0 +1,31 @@
+---
+layout: post
+title: Projects
+---
+
+	<div id="headerwrap">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-10 col-lg-offset-1">
+				<h1>I am your <b>Shield.</b></h1>
+				<h2>I am your sword.</h2>
+				</div>
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><!-- headerwrap -->
+  <!-- FEATURE SECTION -->
+  <div class="container wb">
+    <div class="row centered">
+      <br><br>
+      <div class="col-lg-8 col-lg-offset-2">
+        <ul>
+	{% for post in site.posts %}
+		<li>
+			<a href="{{ post.url}}">{{ post.title }}</a>
+		</li>
+	{% endfor %}
+</ul>
+      </div>
+    </div><!-- row -->
+  </div><!-- container -->
+          			
