@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: parallax
 title: The Perfect iOS
 ---
 <!-- Section 1 -->
@@ -18,5 +18,11 @@ title: The Perfect iOS
 <section id="tail" data-speed="4" data-type="background">
 	<div class="container">
 		EVen more talky like stuff.
+	</div>
+</section>
+<!-- Section 4 -->
+<section id="closer" data-speed="2" data-type="background">
+	<div class="container">
+		EVen more talky like stuff and other things.
 	</div>
 </section>
