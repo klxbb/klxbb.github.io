@@ -2,27 +2,37 @@
 layout: parallax
 title: The Perfect iOS
 ---
+<div id="headerwrap">
+		<div class="container">
+			<div class="row centered">
+				<div class="col-lg-10 col-lg-offset-1">
+				<h1>Crafting the <b>perfect</b> iOS</h1>
+				</div>
+			</div><!-- row -->
+		</div><!-- container -->
+	</div><!-- headerwrap -->
+
 <!-- Section 1 -->
 <section id="intro" data-speed="8" data-type="background">
-	<div class="container">
+	<div class="container wb">
 		Blah blah blah.
 	</div>
 </section>
 <!-- Section 2 -->
 <section id="body" data-speed="6" data-type="background">
-	<div class="container">
+	<div class="container wb">
 		More speaky type stuff.
 	</div>
 </section>
 <!-- Section 3 -->
 <section id="tail" data-speed="4" data-type="background">
-	<div class="container">
+	<div class="container wb">
 		EVen more talky like stuff.
 	</div>
 </section>
 <!-- Section 4 -->
 <section id="closer" data-speed="2" data-type="background">
-	<div class="container">
+	<div class="container wb">
 		EVen more talky like stuff and other things.
 	</div>
 </section>
