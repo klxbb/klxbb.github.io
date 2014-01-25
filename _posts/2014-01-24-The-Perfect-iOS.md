@@ -14,25 +14,17 @@ title: The Perfect iOS
 
 <!-- Section 1 -->
 <section id="intro" data-speed="8" data-type="background">
-	<div class="container wb">
-		Blah blah blah.
-	</div>
+	<article>Blah blah blah.</article>
 </section>
 <!-- Section 2 -->
 <section id="body" data-speed="6" data-type="background">
-	<div class="container wb">
-		More speaky type stuff.
-	</div>
+	<article>More speaky type stuff.</article>
 </section>
 <!-- Section 3 -->
 <section id="tail" data-speed="4" data-type="background">
-	<div class="container wb">
-		EVen more talky like stuff.
-	</div>
+	<article>EVen mroe speaky type stuff.</article>
 </section>
 <!-- Section 4 -->
 <section id="closer" data-speed="2" data-type="background">
-	<div class="container wb">
-		EVen more talky like stuff and other things.
-	</div>
+	<article>More speaky type stuff and things.</article>
 </section>
