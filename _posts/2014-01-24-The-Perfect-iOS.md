@@ -1,5 +1,5 @@
 ---
-layout: parallax
+layout: post
 title: The Perfect iOS
 ---
 <div id="headerwrap">
